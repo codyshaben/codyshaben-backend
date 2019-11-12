@@ -80,7 +80,6 @@ test:
 #
 production:
   <<: *default
-  postgres://himrwkeoposnqb:7984f4ab69c8b611fd3f40c902c07be6c4e49b5b0b6479aefc289741bf1bd80c@ec2-174-129-253-144.compute-1.amazonaws.com:5432/d8k8ktmn4nkbko
   database: d8k8ktmn4nkbko
   username: himrwkeoposnqb
   password: 7984f4ab69c8b611fd3f40c902c07be6c4e49b5b0b6479aefc289741bf1bd80c
