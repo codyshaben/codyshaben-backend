@@ -8,6 +8,9 @@
 
 Repository.destroy_all
 Blog.destroy_all
+User.destroy_all
+
+User.create(username: "codyshaben")
 
 Repository.create(user_id: 1, title: "LineFinder Backend", description: "Node Express backend connecting to an REI api to find backcountry ski trails.", technology: "Node JS with Express", link: "https://github.com/codyshaben/backcountry-back-end")
 
